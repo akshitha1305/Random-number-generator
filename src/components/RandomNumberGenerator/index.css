@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+}
+
+.card-container {
+  padding: 30px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  outline: none;
+  height: 330px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 25px;
+  color: #0b69ff;
+  font-weight: 600;
+  text-align: center;
+  outline: none;
+}
+.para1 {
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+}
+.button {
+  padding: 10px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+  border-style: none;
+  align-self: center;
+  outline: none;
+}
+.para2 {
+  font-size: 45px;
+  color: #0b69ff;
+  font-weight: 600;
+  text-align: center;
+  outline: none;
+}
